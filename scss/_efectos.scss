@@ -1,0 +1,43 @@
+//EFECTOS HOVER RECUADROS "NOSOTROS"
+.recuadroEfecto{
+    transition: 1s all;
+    &:hover {
+        background-color: rgb(80, 78, 78) !important;
+        color: white !important;
+    }
+}
+
+//EFECTO HOVER MENU HEADER
+.menuHeader{
+    transition: 1s all;
+    &:hover {
+        transform: translateX(3%) !important;
+        color: rgb(182, 180, 182) !important;
+    }
+}
+
+//EFECTO HOVER ICONOS REDES SOCIALES
+.rrss{transition: .5s all;
+    &:hover{transform: scale(1.1);}
+}
+
+//EFECTO HOVER MENU SERVICIOS DEL INDEX
+.menuServ{
+    transition: 1s all;
+    padding: 5px;
+    margin: 5px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    &:hover {
+        background-color: rgb(80, 78, 78) !important;
+        color: white !important;
+        transform: scale(1.1) !important;
+}}
+
+//EFECTO HOVER CARDS
+.cardHover {
+    transition: 1s all;
+    &:hover {
+        transform: translateX(3%) !important;
+
+}}

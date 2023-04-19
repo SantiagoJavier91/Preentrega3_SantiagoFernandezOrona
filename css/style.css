@@ -1,0 +1,76 @@
+.bgHeader {
+  background-image: linear-gradient(to top, rgb(26, 5, 26), rgb(87, 9, 87));
+}
+
+.bgFooter {
+  background-image: linear-gradient(to bottom, rgb(87, 9, 87), rgb(26, 5, 26));
+}
+
+.bgGeneral {
+  background-color: gainsboro;
+}
+
+.fsize-12 {
+  font-size: 12px;
+}
+
+.fsize-15 {
+  font-size: 15px;
+}
+
+@font-face {
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+  src: url(../fonts/RobotoCondensed-LightItalic.ttf);
+  src: url(../fonts/RobotoCondensed-BoldItalic.ttf);
+  src: url(../fonts/RobotoCondensed-Light.ttf);
+}
+body {
+  font-family: "Roboto Condensed" !important;
+}
+
+.recuadroEfecto {
+  transition: 1s all;
+}
+.recuadroEfecto:hover {
+  background-color: rgb(80, 78, 78) !important;
+  color: white !important;
+}
+
+.menuHeader {
+  transition: 1s all;
+}
+.menuHeader:hover {
+  transform: translateX(3%) !important;
+  color: rgb(182, 180, 182) !important;
+}
+
+.rrss {
+  transition: 0.5s all;
+}
+.rrss:hover {
+  transform: scale(1.1);
+}
+
+.menuServ {
+  transition: 1s all;
+  padding: 5px;
+  margin: 5px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+}
+.menuServ:hover {
+  background-color: rgb(80, 78, 78) !important;
+  color: white !important;
+  transform: scale(1.1) !important;
+}
+
+.cardHover {
+  transition: 1s all;
+}
+.cardHover:hover {
+  transform: translateX(3%) !important;
+}
+
+/*# sourceMappingURL=style.css.map */

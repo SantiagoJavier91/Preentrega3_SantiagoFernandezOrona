@@ -20,9 +20,9 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="container-fluid">
+    <div class="container-fluid bgGeneral">
         <header class="row bgHeader">
-            <div class="col-xl-12 col-12">
+            <div class="col-lg-12 col-12">
               <nav class="navbar navbar-expand-lg">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -30,21 +30,21 @@
                 <div class="container-fluid d-flex justify-content-center">
                     <a href="index.html"><img src="img/LOGO ELUN NEHUEN blanco.png" alt="logo blanco"></a>
                   <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                    <ul class="navbar-nav mb-2 mb-lg-0 textPpal">
-                      <li class="nav-item mx-xl-4">
-                        <a class="nav-link active textPpal" aria-current="page" href="index.html">INICIO</a>
+                    <ul class="navbar-nav mb-2 mb-lg-0 text-white">
+                      <li class="nav-item mx-lg-4">
+                        <a class="nav-link active text-white menuHeader" aria-current="page" href="index.html">INICIO</a>
                       </li>
-                      <li class="nav-item mx-xl-4">
-                        <a class="nav-link" href="pages/nosotros.html">NOSOTROS</a>
+                      <li class="nav-item mx-lg-4">
+                        <a class="nav-link text-white menuHeader" href="pages/nosotros.html">NOSOTROS</a>
                       </li>
-                      <li class="nav-item mx-xl-4">
-                        <a class="nav-link" href="pages/servicios.html">SERVICIOS</a>
+                      <li class="nav-item mx-lg-4">
+                        <a class="nav-link text-white menuHeader" href="pages/servicios.html">SERVICIOS</a>
                       </li>
-                      <li class="nav-item mx-xl-4">
-                        <a class="nav-link" href="pages/obras.html">OBRAS</a>
+                      <li class="nav-item mx-lg-4">
+                        <a class="nav-link text-white menuHeader" href="pages/obras.html">OBRAS</a>
                       </li>
-                      <li class="nav-item mx-xl-4">
-                        <a class="nav-link" href="pages/contacto.html">CONTACTO</a>
+                      <li class="nav-item mx-lg-4">
+                        <a class="nav-link text-white menuHeader" href="pages/contacto.html">CONTACTO</a>
                       </li>
                   </div>
                 </div>
@@ -52,52 +52,82 @@
             </div>
         </header>
         <div class="row">
-            <div class="col-xl-12 col-12">
-                <h1>Bienvenidos al Sitio Oficial de Elún-Nehuén</h1>
-                <h2>Empresa dedicada a la ingeniería, proyectos en MT y BT, automatización y montajes eléctricos y tableros.</h2>
+            <div class="col-lg-12 col-12">
+                <h1 class="d-flex justify-content-center p-2 mt-2">Bienvenidos al Sitio Oficial de Elún-Nehuén</h1>
+                <h2 class="fs-4 fs-light d-flex justify-content-center">Empresa dedicada a la ingeniería, proyectos en MT y BT, automatización y montajes eléctricos y tableros.</h2>
             </div>        
         </div>
         <div class="row">
-            <div class="col-xl-12 col-12">
-                <img class="img-fluid" src="img/fondo inicio.jpg" alt="foto inicio">
+          <div id="carouselExampleIndicators" class="carousel slide col-lg-12 col-12" data-bs-ride="true">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/fondo_inicio1.jpg" alt="foto inicio 1" class="d-block w-100 img-fluid">
+              </div>
+              <div class="carousel-item">
+                <img src="img/fondo_inicio2.jpg" alt="foto inicio 2" class="d-block w-100 img-fluid">
+              </div>
+              <div class="carousel-item">
+                <img src="img/fondo_inicio3.jpg" alt="foto inicio 3" class="d-block w-100 img-fluid">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
         </div>
-        <div class="row">
-            <ul class="col-xl-12 col-12">
-                <h4>Contamos con Servicios en:</h4>
-                <li><a href="pages/servicios.html">INGENIERÍA</a></li>
-                <li><a href="pages/servicios.html">MONTAJES ELÉCTRICOS INTEGRALES</a></li>
-                <li><a href="pages/servicios.html">TABLEROS ELÉCTRICOS</a></li>
-                <li><a href="pages/servicios.html">AUTOMATIZACIÓN</a></li>
-            </ul>
+        <div class="row pt-2 pb-3">
+          <h4 class="fs-5">Contamos con Servicios en:</h4>
+          <div class="col-12 col-lg-3 d-flex text-center align-items-center justify-content-center">
+            <a class="text-decoration-none text-black fs-4 p-4 menuServ" href="pages/servicios.html">INGENIERÍA</a>
+          </div>
+          <div class="col-12 col-lg-3 d-flex text-center align-items-center justify-content-center">
+            <a class="text-decoration-none text-black fs-4 p-4 menuServ" href="pages/servicios.html">MONTAJES ELÉCTRICOS</a>
+          </div>
+          <div class="col-12 col-lg-3 d-flex text-center align-items-center justify-content-center">
+            <a class="text-decoration-none text-black fs-4 p-4 menuServ" href="pages/servicios.html">TABLEROS ELÉCTRICOS</a>
+          </div>
+          <div class="col-12 col-lg-3 d-flex text-center align-items-center justify-content-center">
+            <a class="text-decoration-none text-black fs-4 p-4 menuServ" href="pages/servicios.html">AUTOMATIZACIÓN</a>
+          </div>
         </div>
-    </div>
-    <footer class="row bgFooter textPpal">
-        <div class="col-xl-4 col-xs-12 d-flex flex-column">
-            <h4>CONTACTANOS:</h4>
+    <footer class="row bgFooter">
+        <div class="col-lg-4 col-12 text-white px-4 py-3 fs-6">
+            <h4 class="fs-5">CONTACTANOS:</h4>
             <p>Buenos Aires, Argentina</p>
             <p>(011) 4321-5678</p>
             <p>Elun Nehuen S.A. ®</p>
         </div>
-        <div class="col-xl-4 col-xs-12 d-flex flex-column">
-            <h4>CONSULTANOS:</h4>
+        <div class="col-lg-4 col-12 text-white px-4 py-3 fs-6">
+            <h4 class="fs-5">CONSULTANOS:</h4>
             <p>info@elun-nehuen.com</p>
             <p>presupuestos@elun-nehuen.com</p>
             <p>proyectos@elun-nehuen.com</p>
         </div>
-        <div class="col-xl-4 col-xs-12">
-            <h4>REDES SOCIALES: </h4>
-            <a href="https://www.linkedin.com/" target="_blank"><img src="img/logo linkedin.png" alt="logo linkedin"></a>
-            <a href="https://www.instagram.com/" target="_blank"><img src="img/logo insta.png" alt="logo insta"></a>
-            <a href="https://www.facebook.com/" target="_blank"><img src="img/logo face.png" alt="logo facebook"></a>
-            <a href="https://www.youtube.com/" target="_blank"><img src="img/logo youtube.png" alt="logo youtube"></a>
+        <div class="col-lg-4 col-12 text-white px-4 py-3"> 
+            <h4 class="fs-5">REDES SOCIALES: </h4>
+            <a href="https://www.linkedin.com/" target="_blank"><img class="rrss" src="img/logo linkedin.png" alt="logo linkedin"></a>
+            <a href="https://www.instagram.com/" target="_blank"><img class="rrss" src="img/logo insta.png" alt="logo insta"></a>
+            <a href="https://www.facebook.com/" target="_blank"><img class="rrss" src="img/logo face.png" alt="logo facebook"></a>
+            <a href="https://www.youtube.com/" target="_blank"><img class="rrss" src="img/logo youtube.png" alt="logo youtube"></a>
+        </div>
+        <div class="col-lg-12 col-12">
+          <h5 class="fsize-12 fw-light p-2 d-flex justify-content-end text-white">
+            Desarrollado por Santiago Fernández Oroná ® Todos los derechos reservados.
+          </h5>
         </div>
     </footer>
-    <div class="row">
-        <div class="col-xl-12 col-xs-12">
-            <h5>Desarrollado por Santiago Fernández Oroná ® Todos los derechos reservados.</h5>
-        </div>
-    </div>
+  </div>
     <!--SCRIPT BOOTSTRAP-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </body>
+</html>

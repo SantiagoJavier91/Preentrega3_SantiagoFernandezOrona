@@ -1,0 +1,13 @@
+//TIPOGRAFIAS
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    src: url(../fonts/RobotoCondensed-LightItalic.ttf);
+    src: url(../fonts/RobotoCondensed-BoldItalic.ttf);
+    src: url(../fonts/RobotoCondensed-Light.ttf);
+}
+   
+body{font-family: 'Roboto Condensed'!important;}
+
+
