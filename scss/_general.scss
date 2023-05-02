@@ -19,3 +19,8 @@ body{font-family: 'Roboto Condensed'!important;}
 }
 
 .flex-center{@include flex-center;}
+
+
+.navbar-toggler-icon {
+    filter: invert(1);
+  }

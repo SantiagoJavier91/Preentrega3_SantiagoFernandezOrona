@@ -89,6 +89,10 @@ body {
   text-align: center;
 }
 
+.navbar-toggler-icon {
+  filter: invert(1);
+}
+
 .recuadroEfecto {
   transition: 1s all;
 }
