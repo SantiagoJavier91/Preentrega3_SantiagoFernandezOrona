@@ -1,4 +1,7 @@
 //general
-.fsize-12{font-size: 12px;}
-.fsize-15{font-size: 15px;}
 
+@for $fs from 1 through 15{
+    .fsize-#{$fs}{
+        font-size: 1px * $fs;
+    }
+}

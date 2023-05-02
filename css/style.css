@@ -10,8 +10,60 @@
   background-color: gainsboro;
 }
 
+.fsize-1 {
+  font-size: 1px;
+}
+
+.fsize-2 {
+  font-size: 2px;
+}
+
+.fsize-3 {
+  font-size: 3px;
+}
+
+.fsize-4 {
+  font-size: 4px;
+}
+
+.fsize-5 {
+  font-size: 5px;
+}
+
+.fsize-6 {
+  font-size: 6px;
+}
+
+.fsize-7 {
+  font-size: 7px;
+}
+
+.fsize-8 {
+  font-size: 8px;
+}
+
+.fsize-9 {
+  font-size: 9px;
+}
+
+.fsize-10 {
+  font-size: 10px;
+}
+
+.fsize-11 {
+  font-size: 11px;
+}
+
 .fsize-12 {
   font-size: 12px;
+}
+
+.fsize-13 {
+  font-size: 13px;
+}
+
+.fsize-14 {
+  font-size: 14px;
 }
 
 .fsize-15 {
@@ -30,6 +82,13 @@ body {
   font-family: "Roboto Condensed" !important;
 }
 
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
 .recuadroEfecto {
   transition: 1s all;
 }
@@ -42,8 +101,8 @@ body {
   transition: 1s all;
 }
 .menuHeader:hover {
-  transform: translateX(3%) !important;
-  color: rgb(182, 180, 182) !important;
+  background-color: rgb(122, 18, 88) !important;
+  border-radius: 5px;
 }
 
 .rrss {

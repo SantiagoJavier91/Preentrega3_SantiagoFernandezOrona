@@ -11,8 +11,8 @@
 .menuHeader{
     transition: 1s all;
     &:hover {
-        transform: translateX(3%) !important;
-        color: rgb(182, 180, 182) !important;
+        background-color: rgb(122, 18, 88) !important;
+        border-radius: 5px;
     }
 }
 
